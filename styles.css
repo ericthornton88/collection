@@ -1,16 +1,21 @@
 .box {
-	height: 400px;
-	width: 390px;
+	height: 300px;
 	display: inline-block;
 	background-color: #3498db;
+  	filter: grayscale(100%);
+  	-webkit-filter: grayscale(100%);
+  	border: 1px solid black;
 }
 
 .box:hover {
+	filter: none;
+  	-webkit-filter: none;
+  	cursor: pointer;
 	background-color: #e74c3c;
 }
 
 .box-wrapper {
-	width: 800px;
+	width: 1250px;
 	margin: 0 auto;
 }
 
